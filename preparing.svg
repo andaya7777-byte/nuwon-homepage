@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" fill="none">
+  <!-- "준비 중" 안내 창 그림: 지도 위 위치 표시 + 공구 + 공사 콘 -->
+  <ellipse cx="120" cy="158" rx="86" ry="12" fill="#e4e2fa"/>
+  <!-- 지도 -->
+  <path d="M40 60 L88 44 L136 60 L196 42 V132 L148 148 L100 132 L40 150 Z" fill="#eeedfb" stroke="#cfcbf3" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M88 44 V132 M136 60 V148" stroke="#cfcbf3" stroke-width="3" stroke-dasharray="6 6"/>
+  <path d="M52 112 C 74 96, 92 120, 116 104 S 160 92, 184 104" stroke="#a9a3ec" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 8"/>
+  <!-- 위치 표시 -->
+  <path d="M120 22 C 98 22 82 38 82 58 C 82 86 120 118 120 118 C 120 118 158 86 158 58 C 158 38 142 22 120 22 Z" fill="#4338ca"/>
+  <circle cx="120" cy="58" r="22" fill="#ffffff"/>
+  <!-- 스패너 -->
+  <g transform="rotate(-40 120 58)">
+    <rect x="116" y="50" width="8" height="26" rx="3" fill="#4338ca"/>
+    <path d="M110 44 a10 10 0 1 0 20 0 h-6 v6 h-8 v-6 z" fill="#4338ca"/>
+  </g>
+  <!-- 공사 콘 -->
+  <g transform="translate(170 104)">
+    <path d="M14 0 L28 40 H0 Z" fill="#ff8a1f"/>
+    <path d="M9 14 H19 M6 24 H22" stroke="#ffffff" stroke-width="5"/>
+    <rect x="-4" y="38" width="36" height="7" rx="3" fill="#e2701a"/>
+  </g>
+  <!-- 반짝이 -->
+  <path d="M58 34 v12 M52 40 h12" stroke="#ffd34d" stroke-width="4" stroke-linecap="round"/>
+  <path d="M186 22 v8 M182 26 h8" stroke="#ffd34d" stroke-width="3" stroke-linecap="round"/>
+</svg>

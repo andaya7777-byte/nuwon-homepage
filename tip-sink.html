@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>싱크대 막힘·역류 직접 해결하는 방법 | 누원설비 생활의 꿀팁</title>
+<meta name="description" content="싱크대 물이 안 내려가거나 거꾸로 올라올 때 직접 해 볼 수 있는 방법. 뜨거운 물과 세제, 베이킹소다, 압축기, 싱크대 아래 배수관(트랩) 청소하는 법과 하면 안 되는 것, 전문가를 불러야 하는 경우까지 정리했습니다.">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 뒤로가기 -->
+<div class="back-bar">
+  <div class="wrap">
+    <a href="index.html" class="back-btn" onclick="if (document.referrer && history.length > 1) { history.back(); return false; }">← 뒤로</a>
+    <span class="back-title">싱크대 역류</span>
+  </div>
+</div>
+
+<header>
+  <div class="wrap">
+    <a href="index.html" class="logo"><img src="logo.svg" alt="" class="logo-mark">누원설비<small>누원건축설비</small></a>
+    <a href="tel:01052726159" class="top-call">📞 010-5272-6159</a>
+  </div>
+</header>
+
+<!-- 문제 바로 고르기 -->
+<nav class="pick">
+  <div class="wrap pick-wrap">
+    <button class="pick-btn prev" type="button" aria-label="왼쪽으로">‹</button>
+    <div class="pick-track">
+      <a href="tip-drain.html" draggable="false"><span>🛁</span>하수구</a>
+      <a href="tip-sink.html" draggable="false" class="on" aria-current="page"><span>🚰</span>싱크대</a>
+      <a href="tip-toilet.html" draggable="false"><span>🚽</span>변기</a>
+      <a href="tip-septic.html" draggable="false"><span>🏠</span>정화조</a>
+      <a href="tip-camera.html" draggable="false"><span>🔍</span>내시경</a>
+      <a href="tip-jet.html" draggable="false"><span>💦</span>고압세척</a>
+      <a href="tip-faucet.html" draggable="false"><span>🚿</span>수전</a>
+      <a href="tip-doorknob.html" draggable="false"><span>🚪</span>문고리</a>
+      <a href="tip-led.html" draggable="false"><span>💡</span>LED등</a>
+      <a href="tip-smell.html" draggable="false"><span>👃</span>악취</a>
+      <a href="tip-smoke.html" draggable="false"><span>🚬</span>담배냄새</a>
+      <a href="index.html#price" draggable="false"><span>💰</span>가격표</a>
+    </div>
+    <button class="pick-btn next" type="button" aria-label="오른쪽으로">›</button>
+  </div>
+</nav>
+
+<!-- 약속 띠: 옆으로 계속 흐름 (같은 목록을 두 번 넣어야 끊기지 않고 이어짐) -->
+<div class="ticker" aria-label="누원설비의 약속">
+  <div class="ticker-track">
+    <span>🚚 출장비 <b>0원</b></span><span>🛡️ A/S <b>1년 보증</b></span><span>📋 작업 전 <b>투명견적</b></span><span>⚡ 긴급출동 <b>30분</b></span><span>📅 <b>365일</b> 연중무휴 · <b>24시간</b></span><span>🔧 <b>최신 장비</b> 보유</span>
+    <span aria-hidden="true">🚚 출장비 <b>0원</b></span><span aria-hidden="true">🛡️ A/S <b>1년 보증</b></span><span aria-hidden="true">📋 작업 전 <b>투명견적</b></span><span aria-hidden="true">⚡ 긴급출동 <b>30분</b></span><span aria-hidden="true">📅 <b>365일</b> 연중무휴 · <b>24시간</b></span><span aria-hidden="true">🔧 <b>최신 장비</b> 보유</span>
+  </div>
+</div>
+
+<!-- 첫 화면 -->
+<div class="hero hero-sm">
+  <div class="wrap">
+    <p class="crumb"><a href="index.html">홈</a> › <a href="index.html#tips">생활의 꿀팁</a> › 싱크대 역류</p>
+    <span class="badge">생활의 꿀팁 · 싱크대 역류</span>
+    <h1>싱크대 막혔을 때,<br><em>집에서 먼저</em> 해 보세요</h1>
+    <p class="lead">싱크대 막힘의 주범은 기름때와 음식물 찌꺼기입니다.<br>순서대로 따라 해 보시고, 그래도 안 되면 그때 누원설비를 불러 주세요.</p>
+  </div>
+</div>
+
+<article class="article">
+  <div class="wrap">
+
+    <!-- 목차 -->
+    <nav class="toc">
+      <b>📋 이 글의 차례</b>
+      <ol>
+        <li><a href="#why">싱크대 막힘, 왜 생길까요?</a></li>
+        <li><a href="#diy">집에서 먼저 해 보세요</a></li>
+        <li><a href="#call">이런 증상이면 바로 부르세요</a></li>
+        <li><a href="#how">누원설비는 이렇게 뚫습니다</a></li>
+        <li><a href="#process">작업 과정</a></li>
+        <li><a href="#cost">비용은 어떻게 정해지나요?</a></li>
+        <li><a href="#photos">작업 사진</a></li>
+        <li><a href="#area">출동 지역</a></li>
+        <li><a href="#reviews">고객 후기</a></li>
+        <li><a href="#prevent">미리 막는 습관</a></li>
+        <li><a href="#faq">자주 묻는 질문</a></li>
+      </ol>
+    </nav>
+
+    <h2 class="art-title" id="why">1. 싱크대 막힘, 왜 생길까요?</h2>
+    <div class="text-block">
+      <p>싱크대 막힘은 크게 세 가지입니다. <b>거름망·트랩에 걸린 단순 찌꺼기</b>, 배관 안쪽 벽에 <b>두껍게 굳은 기름때</b>, 그리고 여러 집이 함께 쓰는 <b>공용 배관 막힘</b>입니다.</p>
+      <p>앞의 것은 집에서도 풀 수 있지만, 기름때가 배관 지름의 절반 넘게 쌓였거나 공용 배관이 막혔다면 뚫어도 금방 다시 막힙니다. 그래서 <b>어디가 막혔는지</b>를 먼저 아는 것이 중요합니다.</p>
+    </div>
+
+    <h2 class="art-title" id="diy">2. 집에서 먼저 해 보세요</h2>
+
+    <div class="box box-warn">
+      <b>⚠️ 가장 먼저! 물을 더 쓰지 말고 거름망부터 비우세요</b>
+      <p>막힌 상태에서 설거지를 계속하면 물이 넘칩니다. 배수구의 <b>거름망과 고무 마개를 빼서</b> 찌꺼기를 비우고, 그 아래에 걸린 음식물이 있는지 확인해 주세요.</p>
+    </div>
+
+
+    <div class="tip-step">
+      <div class="tip-num">1</div>
+      <div>
+        <h3>뜨거운 수돗물 + 주방세제로 기름 녹이기</h3>
+        <p>주방세제를 넉넉히 짜 넣고, <b>수도에서 나오는 가장 뜨거운 물</b>을 천천히 부어 주세요. <b>30분</b> 정도 두면 굳은 기름때가 녹아 내려가는 경우가 많습니다.</p>
+        <p class="note">❌ 팔팔 끓는 물은 싱크대 아래 플라스틱 주름관을 녹이거나 변형시킬 수 있습니다.</p>
+      </div>
+    </div>
+
+    <div class="tip-step">
+      <div class="tip-num">2</div>
+      <div>
+        <h3>베이킹소다 + 식초</h3>
+        <p><b>베이킹소다 반 컵 → 식초 한 컵</b> 순서로 붓고 배수구를 막아 <b>30분</b> 기다린 뒤, 뜨거운 수돗물로 흘려보내세요.</p>
+      </div>
+    </div>
+
+    <div class="tip-step">
+      <div class="tip-num">3</div>
+      <div>
+        <h3>평평한 압축기 쓰기</h3>
+        <ul>
+          <li>싱크대에 물을 조금 받아 <b>고무컵이 잠기게</b> 합니다.</li>
+          <li>개수대가 <b>두 칸</b>이라면 다른 쪽 구멍을 <b>젖은 행주로 꽉 막아</b> 주세요. 그래야 힘이 새지 않습니다.</li>
+          <li>꾹 누르고 확 당기기를 10~15번 반복하세요.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="tip-step">
+      <div class="tip-num">4</div>
+      <div>
+        <h3>싱크대 아래 배수관(트랩) 청소</h3>
+        <p>싱크대 문을 열면 배수구 바로 아래에 <b>물이 고여 있는 통이나 U자 모양 관</b>이 있습니다. <b>대야를 받친 뒤</b> 손으로 돌려 풀면 안에 고인 찌꺼기를 꺼낼 수 있습니다.</p>
+        <p class="note">풀 때 나오는 <b>고무 패킹</b>을 잃어버리면 다시 끼웠을 때 물이 샙니다. 꼭 챙겨 두세요.</p>
+      </div>
+    </div>
+
+    <div class="box box-stop">
+      <b>🚫 이건 하지 마세요</b>
+      <ul>
+        <li><b>튀김 기름, 고기 기름 붓기</b> — 배관 안에서 굳어 막힘의 가장 큰 원인이 됩니다.</li>
+        <li><b>커피 찌꺼기, 밥알, 달걀 껍데기 흘려보내기</b> — 기름때와 엉겨 단단하게 굳습니다.</li>
+        <li><b>독한 배관 세정제를 여러 개 섞기</b> — 독한 가스가 나올 수 있습니다.</li>
+      </ul>
+    </div>
+
+    <h2 class="art-title" id="call">3. 이런 증상이면 바로 부르세요</h2>
+    <div class="box box-call">
+      <b>📞 이럴 땐 바로 전화 주세요</b>
+      <ul>
+        <li><b>아파트 1~2층</b>인데 싱크대에서 물이 <b>거꾸로 솟아오를 때</b> — 윗집들의 물이 내려오다 공용 배관에서 막힌 것일 수 있습니다.</li>
+        <li><b>꾸르륵 소리</b>가 나고 냄새가 함께 올라올 때</li>
+        <li>뚫어도 <b>몇 주 만에 또 막힐 때</b> — 배관 벽에 기름때가 두껍게 쌓인 것이라 세척이 필요합니다.</li>
+        <li>싱크대 아래에서 <b>물이 새고 있을 때</b></li>
+      </ul>
+      <div class="btns">
+        <a href="tel:01052726159" class="btn btn-call">📞 지금 전화하기</a>
+        <a href="#" class="btn btn-kakao">💛 카카오톡 상담</a>
+        <a href="sms:01052726159?body=[누원설비 문의] 지역: / 증상: 싱크대 막힘" class="btn btn-sms">💬 문자 보내기</a>
+      </div>
+    </div>
+
+    <h2 class="art-title" id="how">4. 누원설비는 이렇게 뚫습니다</h2>
+    <p class="art-lead">막힌 원인과 위치에 따라 방법이 다릅니다. 무조건 큰 작업을 하지 않고, <b>필요한 만큼만</b> 합니다.</p>
+    <div class="methods">
+      <div class="method"><span class="ico">🔧</span><b>트랩 분해 청소</b><p>싱크대 바로 아래 트랩에 찌꺼기가 걸린 가벼운 막힘. 분해해서 씻어 내고 다시 조립합니다.</p></div>
+      <div class="method"><span class="ico">🌀</span><b>스프링 관통 작업</b><p>배관 안쪽이 막혔을 때. 전동 스프링을 넣어 막힌 덩어리를 뚫어 냅니다.</p></div>
+      <div class="method"><span class="ico">🔍</span><b>내시경 진단</b><p>자꾸 다시 막히거나 원인을 모를 때. 카메라로 배관 속을 직접 보고 막힌 곳을 찾습니다.</p></div>
+      <div class="method"><span class="ico">💦</span><b>배관 고압세척</b><p>배관 벽에 기름때가 두껍게 쌓였을 때. 센 물줄기로 벽 전체를 씻어 내 재발을 줄입니다.</p></div>
+    </div>
+
+    <h2 class="art-title" id="process">5. 작업 과정</h2>
+    <ol class="steps">
+      <li><b>전화 · 문자 상담</b><span>지역과 증상, 사진을 알려 주세요</span></li>
+      <li><b>가까운 장인 출동</b><span>지역 장인이 바로 갑니다</span></li>
+      <li><b>원인 확인</b><span>어디가 막혔는지 먼저 봅니다</span></li>
+      <li><b>방법 설명</b><span>어떤 작업을 할지 먼저 말씀드립니다</span></li>
+      <li><b>작업 · 마무리</b><span>물이 잘 내려가는지 함께 확인합니다</span></li>
+    </ol>
+
+    <h2 class="art-title" id="cost">6. 비용은 어떻게 정해지나요?</h2>
+    <div class="tip-step">
+      <div class="tip-num">₩</div>
+      <div>
+        <p>싱크대 막힘 비용은 아래에 따라 달라집니다.</p>
+        <ul>
+          <li><b>막힌 위치</b> — 싱크대 바로 아래인지, 배관 깊은 곳인지, 공용 배관인지</li>
+          <li><b>막힌 정도</b> — 찌꺼기가 조금 걸린 것인지, 기름때가 굳어 꽉 막힌 것인지</li>
+          <li><b>필요한 장비</b> — 트랩 청소만으로 되는지, 스프링·내시경·고압세척이 필요한지</li>
+          <li><b>건물 구조</b> — 배관 길이, 청소구 위치, 상가·식당 여부</li>
+        </ul>
+        <p class="note">증상과 사진을 보내 주시면 대략적인 비용을 먼저 안내해 드립니다.</p>
+      </div>
+    </div>
+
+    <h2 class="art-title" id="photos">7. 작업 사진</h2>
+    <!-- 실제 싱크대 작업 사진이 오면 .ph 칸을 <img>로 바꾸기 -->
+    <div class="cases">
+      <div class="case">
+        <div class="ba"><div class="ph">작업 전<br>사진 자리</div><div class="ph after">작업 후<br>사진 자리</div></div>
+        <div class="case-body"><span class="tag">싱크대 역류</span><b>지역 · 현장 이름</b><p>어떤 문제였고 어떻게 해결했는지 한두 줄로 적는 자리입니다.</p></div>
+      </div>
+      <div class="case">
+        <div class="ba"><div class="ph">작업 전<br>사진 자리</div><div class="ph after">작업 후<br>사진 자리</div></div>
+        <div class="case-body"><span class="tag">고압세척</span><b>지역 · 현장 이름</b><p>어떤 문제였고 어떻게 해결했는지 한두 줄로 적는 자리입니다.</p></div>
+      </div>
+    </div>
+
+    <h2 class="art-title" id="area">8. 출동 지역</h2>
+    <p class="art-lead">각 지역의 설비 장인들이 가까운 곳에서 출동합니다. <b>전국 24시간</b> 전화 주세요.</p>
+    <div class="others-list">
+      <a href="siheung.html">📍 시흥</a>
+      <a href="ansan.html">📍 안산</a>
+      <a href="incheon-yeonsu.html">📍 송도·연수구</a>
+      <a href="incheon-namdong.html">📍 인천 남동구</a>
+      <a href="index.html#area">📍 그 밖의 전국</a>
+    </div>
+
+    <h2 class="art-title" id="reviews">9. 고객 후기</h2>
+    <!-- 실제 손님 후기만 넣기 -->
+    <div class="reviews">
+      <div class="review ph-review"><div class="stars">★★★★★</div><p>실제 손님 후기가 들어갈 자리입니다.</p><span class="who">지역 · 싱크대 막힘 · 날짜</span></div>
+      <div class="review ph-review"><div class="stars">★★★★★</div><p>실제 손님 후기가 들어갈 자리입니다.</p><span class="who">지역 · 싱크대 막힘 · 날짜</span></div>
+    </div>
+
+    <h2 class="art-title" id="prevent">10. 미리 막는 습관</h2>
+    <div class="tip-step">
+      <div class="tip-num">✓</div>
+      <div>
+        <ul>
+          <li>프라이팬 기름은 <b>키친타월로 닦아서</b> 버린 뒤 설거지하세요.</li>
+          <li>설거지를 마치면 <b>뜨거운 수돗물을 1분</b> 정도 흘려 기름이 굳기 전에 내려보내세요.</li>
+          <li>거름망은 <b>매일</b> 비워 주세요.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2 class="art-title" id="faq">11. 자주 묻는 질문</h2>
+    <details>
+      <summary>음식물 분쇄기를 쓰는데 막혔어요.</summary>
+      <p>분쇄기를 써도 기름과 섬유질(파 껍질, 옥수수 껍질 등)은 배관에 쌓이기 쉽습니다. 전원을 끄고 플러그를 뽑은 뒤 확인하시고, 손을 넣지 마세요. 분쇄기 아래 배관이 막혔다면 연락 주세요.</p>
+    </details>
+    <details>
+      <summary>물은 내려가는데 냄새가 올라와요.</summary>
+      <p>배관에 쌓인 기름때가 썩는 냄새이거나, 배수관과 벽 사이 틈으로 냄새가 올라오는 것일 수 있습니다. <a href="tip-smell.html" style="color:var(--blue);font-weight:700">악취 차단 꿀팁</a>도 함께 봐 주세요.</p>
+    </details>
+  </div>
+</article>
+
+<!-- 다른 꿀팁 -->
+<section class="svc-bg others">
+  <div class="wrap">
+    <h2 class="sec-title">다른 생활의 꿀팁</h2>
+    <div class="others-list">
+      <a href="tip-drain.html">🛁 하수구 막힘</a>
+      <a href="tip-sink.html">🚰 싱크대 역류</a>
+      <a href="tip-toilet.html">🚽 변기 막힘</a>
+      <a href="tip-septic.html">🏠 정화조 막힘</a>
+      <a href="tip-camera.html">🔍 내시경 · 관로탐지</a>
+      <a href="tip-jet.html">💦 배관 고압세척</a>
+      <a href="tip-faucet.html">🚿 수전 교체</a>
+      <a href="tip-doorknob.html">🚪 문고리</a>
+      <a href="tip-led.html">💡 LED등 교체</a>
+      <a href="tip-smell.html">👃 악취 차단</a>
+      <a href="tip-smoke.html">🚬 욕실 담배냄새</a>
+    </div>
+  </div>
+</section>
+
+<!-- 마지막 전화 유도 -->
+<section class="cta">
+  <div class="wrap">
+    <h2>해 봐도 안 되면, 그때 누원설비가 갑니다</h2>
+    <a href="tel:01052726159" class="phone">010-5272-6159</a>
+    <p>설비 장인들 · 전국 24시간 출장</p>
+    <a href="#" class="btn btn-kakao cta-kakao">💛 카카오톡으로 사진 보내고 상담하기</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><b>누원건축설비</b> (누원설비)</p>
+    <p>대표 전상만 · 사업자등록번호 712-12-02308</p>
+    <p>경기도 시흥시 배곧1로 27-13 · 전화 010-5272-6159</p>
+    <p style="margin-top:10px">© 누원건축설비</p>
+  </div>
+</footer>
+
+<!-- 휴대폰 하단 고정 버튼 -->
+<div class="fixed-bar">
+  <a href="tel:01052726159" class="f-call">📞 전화하기</a>
+  <a href="#" class="f-kakao">💛 카톡</a>
+  <a href="sms:01052726159?body=[누원설비 문의] 지역: / 증상: 싱크대 막힘" class="f-sms">💬 문자</a>
+</div>
+
+<script src="pick.js"></script>
+</body>
+</html>

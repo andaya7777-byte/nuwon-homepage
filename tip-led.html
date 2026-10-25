@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LED등이 깜빡이거나 안 켜질 때 먼저 확인할 것 | 누원설비 생활의 꿀팁</title>
+<meta name="description" content="거실·방·욕실 LED등이 깜빡이거나 일부만 안 켜지거나 아예 안 켜질 때 안전하게 먼저 확인할 것. 차단기 확인하는 법, 증상별 원인, 형광등을 LED로 바꾸면 좋은 점까지 정리했습니다.">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 뒤로가기 -->
+<div class="back-bar">
+  <div class="wrap">
+    <a href="index.html" class="back-btn" onclick="if (document.referrer && history.length > 1) { history.back(); return false; }">← 뒤로</a>
+    <span class="back-title">LED등 교체</span>
+  </div>
+</div>
+
+<header>
+  <div class="wrap">
+    <a href="index.html" class="logo"><img src="logo.svg" alt="" class="logo-mark">누원설비<small>누원건축설비</small></a>
+    <a href="tel:01052726159" class="top-call">📞 010-5272-6159</a>
+  </div>
+</header>
+
+<!-- 문제 바로 고르기 -->
+<nav class="pick">
+  <div class="wrap pick-wrap">
+    <button class="pick-btn prev" type="button" aria-label="왼쪽으로">‹</button>
+    <div class="pick-track">
+      <a href="tip-drain.html" draggable="false"><span>🛁</span>하수구</a>
+      <a href="tip-sink.html" draggable="false"><span>🚰</span>싱크대</a>
+      <a href="tip-toilet.html" draggable="false"><span>🚽</span>변기</a>
+      <a href="tip-septic.html" draggable="false"><span>🏠</span>정화조</a>
+      <a href="tip-camera.html" draggable="false"><span>🔍</span>내시경</a>
+      <a href="tip-jet.html" draggable="false"><span>💦</span>고압세척</a>
+      <a href="tip-faucet.html" draggable="false"><span>🚿</span>수전</a>
+      <a href="tip-doorknob.html" draggable="false"><span>🚪</span>문고리</a>
+      <a href="tip-led.html" draggable="false" class="on" aria-current="page"><span>💡</span>LED등</a>
+      <a href="tip-smell.html" draggable="false"><span>👃</span>악취</a>
+      <a href="tip-smoke.html" draggable="false"><span>🚬</span>담배냄새</a>
+      <a href="index.html#price" draggable="false"><span>💰</span>가격표</a>
+    </div>
+    <button class="pick-btn next" type="button" aria-label="오른쪽으로">›</button>
+  </div>
+</nav>
+
+<!-- 약속 띠: 옆으로 계속 흐름 (같은 목록을 두 번 넣어야 끊기지 않고 이어짐) -->
+<div class="ticker" aria-label="누원설비의 약속">
+  <div class="ticker-track">
+    <span>🚚 출장비 <b>0원</b></span><span>🛡️ A/S <b>1년 보증</b></span><span>📋 작업 전 <b>투명견적</b></span><span>⚡ 긴급출동 <b>30분</b></span><span>📅 <b>365일</b> 연중무휴 · <b>24시간</b></span><span>🔧 <b>최신 장비</b> 보유</span>
+    <span aria-hidden="true">🚚 출장비 <b>0원</b></span><span aria-hidden="true">🛡️ A/S <b>1년 보증</b></span><span aria-hidden="true">📋 작업 전 <b>투명견적</b></span><span aria-hidden="true">⚡ 긴급출동 <b>30분</b></span><span aria-hidden="true">📅 <b>365일</b> 연중무휴 · <b>24시간</b></span><span aria-hidden="true">🔧 <b>최신 장비</b> 보유</span>
+  </div>
+</div>
+
+<!-- 첫 화면 -->
+<div class="hero hero-sm">
+  <div class="wrap">
+    <p class="crumb"><a href="index.html">홈</a> › <a href="index.html#tips">생활의 꿀팁</a> › LED등 교체</p>
+    <span class="badge">생활의 꿀팁 · LED등 교체</span>
+    <h1>등이 깜빡일 때,<br><em>안전이 먼저</em>입니다</h1>
+    <p class="lead">전기는 물과 달리 한 번의 실수가 크게 다칠 수 있습니다.<br>안전하게 확인하는 방법부터 알려 드릴게요.</p>
+  </div>
+</div>
+
+<article class="article">
+  <div class="wrap">
+
+    <!-- 목차 -->
+    <nav class="toc">
+      <b>📋 이 글의 차례</b>
+      <ol>
+        <li><a href="#s1">LED등은 왜 깜빡이거나 꺼질까요?</a></li>
+        <li><a href="#s2">안전하게 먼저 확인하세요</a></li>
+        <li><a href="#s3">이런 증상이면 바로 부르세요</a></li>
+        <li><a href="#s4">누원설비는 이렇게 합니다</a></li>
+        <li><a href="#s5">작업 과정</a></li>
+        <li><a href="#s6">비용은 어떻게 정해지나요?</a></li>
+        <li><a href="#s7">작업 사진</a></li>
+        <li><a href="#s8">출동 지역</a></li>
+        <li><a href="#s9">고객 후기</a></li>
+        <li><a href="#s10">자주 묻는 질문</a></li>
+      </ol>
+    </nav>
+
+    <h2 class="art-title" id="s1">1. LED등은 왜 깜빡이거나 꺼질까요?</h2>
+    <div class="text-block">
+      <p>LED등 안에는 집 전기를 LED에 맞게 바꿔 주는 <b>부품(컨버터)</b>이 있습니다. 이 부품이 고장 나면 등이 <b>깜빡이거나 아예 안 켜집니다.</b></p>
+      <p>불빛을 내는 <b>LED 판</b>이 수명을 다하면 일부만 어두워지고, <b>배선 접촉이 나쁘거나 전기가 새면</b> 차단기가 떨어집니다. 원인에 따라 부품만 바꿀지, 등을 통째로 바꿀지가 달라집니다.</p>
+    </div>
+
+    <h2 class="art-title" id="s2">2. 안전하게 먼저 확인하세요</h2>
+
+    <div class="box box-warn">
+      <b>⚠️ 가장 먼저! 등을 만지기 전에 두꺼비집(차단기)을 내리세요</b>
+      <p>벽 스위치만 끄는 것으로는 <b>전기가 완전히 끊기지 않을 수</b> 있습니다. 현관이나 신발장 근처의 <b>두꺼비집(분전함)</b>을 열고, 해당 방의 차단기를 <b>아래로 내린 뒤</b> 작업하세요. 어느 것인지 모르면 <b>맨 위의 큰 차단기(메인)</b>를 내리면 됩니다.</p>
+    </div>
+
+    <h3 class="sub-title">증상별로 확인해 보세요</h3>
+
+    <div class="tip-step">
+      <div class="tip-num">1</div>
+      <div>
+        <h3>아예 안 켜진다</h3>
+        <p>먼저 <b>두꺼비집</b>을 열어 <b>내려가 있는 차단기</b>가 없는지 보세요. 내려가 있다면 한 번 올려 봅니다. <b>올리자마자 다시 떨어지면</b> 어딘가 전기가 새는 것이니 더 만지지 말고 연락 주세요.</p>
+      </div>
+    </div>
+
+    <div class="tip-step">
+      <div class="tip-num">2</div>
+      <div>
+        <h3>깜빡이거나 켜졌다 꺼졌다 한다</h3>
+        <p>LED등 안에서 전기를 바꿔 주는 <b>부품(컨버터)</b>이 고장 났거나, 불빛을 내는 <b>LED 판</b>이 수명을 다한 경우가 많습니다. 부품만 바꾸거나 등을 통째로 바꿔야 합니다.</p>
+      </div>
+    </div>
+
+    <div class="tip-step">
+      <div class="tip-num">3</div>
+      <div>
+        <h3>일부만 어둡거나 안 켜진다</h3>
+        <p>등 안의 <b>LED 판 일부</b>가 나간 것입니다. 판만 바꿀 수도 있지만, 오래된 등이라면 다른 부분도 곧 나가는 경우가 많아 <b>통째로 바꾸는 게</b> 나을 수 있습니다.</p>
+      </div>
+    </div>
+
+    <h3 class="sub-title">형광등을 LED로 바꾸면 좋은 점</h3>
+    <div class="tip-step">
+      <div class="tip-num">✓</div>
+      <div>
+        <ul>
+          <li>같은 밝기에 <b>전기를 훨씬 적게</b> 써서 전기 요금이 줄어듭니다.</li>
+          <li><b>오래 쓰고</b>, 켤 때 깜빡임 없이 <b>바로 밝아집니다.</b></li>
+          <li>형광등처럼 <b>안정기 고장으로 지지직거리는</b> 일이 없습니다.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="box box-stop">
+      <b>🚫 이건 하지 마세요</b>
+      <ul>
+        <li><b>차단기를 내리지 않고</b> 등 뚜껑을 열거나 전선을 만지기</li>
+        <li><b>젖은 손</b>으로, 또는 <b>욕실 습기가 남은 상태</b>에서 작업하기</li>
+        <li><b>흔들리는 의자 위에서 혼자</b> 작업하기 — 꼭 사다리를 쓰고, 다른 사람이 잡아 주세요.</li>
+      </ul>
+    </div>
+
+
+    <h2 class="art-title" id="s3">3. 이런 증상이면 바로 부르세요</h2>
+    <div class="box box-call">
+      <b>📞 이럴 땐 바로 전화 주세요</b>
+      <ul>
+        <li>차단기가 <b>올리자마자 떨어질 때</b></li>
+        <li>등이나 스위치에서 <b>타는 냄새, 지지직 소리</b>가 날 때 — 바로 차단기를 내리고 연락 주세요.</li>
+        <li>오래된 형광등을 <b>LED등으로 바꾸고 싶을 때</b></li>
+        <li><b>천장이 높거나</b> 욕실처럼 습한 곳의 등일 때</li>
+      </ul>
+      <div class="btns">
+        <a href="tel:01052726159" class="btn btn-call">📞 지금 전화하기</a>
+        <a href="#" class="btn btn-kakao">💛 카카오톡 상담</a>
+        <a href="sms:01052726159?body=[누원설비 문의] 지역: / 증상: LED등 교체" class="btn btn-sms">💬 문자 보내기</a>
+      </div>
+    </div>
+
+    <h2 class="art-title" id="s4">4. 누원설비는 이렇게 합니다</h2>
+    <p class="art-lead">원인과 상황에 따라 방법이 다릅니다. 무조건 큰 작업을 하지 않고, <b>필요한 만큼만</b> 합니다.</p>
+    <div class="methods">
+      <div class="method"><span class="ico">🔌</span><b>컨버터 교체</b><p>깜빡이거나 안 켜질 때. 고장 난 전원 부품만 바꿉니다.</p></div>
+      <div class="method"><span class="ico">💡</span><b>LED 판 교체</b><p>일부만 어둡거나 꺼질 때. 수명이 다한 LED 판을 바꿉니다.</p></div>
+      <div class="method"><span class="ico">🏠</span><b>등 통째 교체</b><p>오래된 형광등이나 낡은 등을 새 LED등으로 바꿉니다.</p></div>
+      <div class="method"><span class="ico">⚡</span><b>배선 · 스위치 점검</b><p>차단기가 떨어지거나 타는 냄새가 날 때 원인을 찾습니다.</p></div>
+    </div>
+
+    <h2 class="art-title" id="s5">5. 작업 과정</h2>
+    <ol class="steps">
+      <li><b>전화 · 문자 상담</b><span>지역과 증상, 사진을 알려 주세요</span></li>
+      <li><b>가까운 장인 출동</b><span>지역 장인이 바로 갑니다</span></li>
+      <li><b>원인 확인</b><span>무엇이 문제인지 먼저 봅니다</span></li>
+      <li><b>방법 설명</b><span>어떤 작업을 할지 먼저 말씀드립니다</span></li>
+      <li><b>작업 · 마무리</b><span>제대로 되었는지 함께 확인합니다</span></li>
+    </ol>
+
+    <h2 class="art-title" id="s6">6. 비용은 어떻게 정해지나요?</h2>
+    <div class="tip-step">
+      <div class="tip-num">₩</div>
+      <div>
+        <p>LED등 교체 비용은 아래에 따라 달라집니다.</p>
+        <ul>
+          <li><b>부품만 바꾸는지, 등을 통째로 바꾸는지</b></li>
+          <li><b>등 종류와 크기, 개수</b> — 거실등·방등·주방등·욕실등</li>
+          <li><b>설치 위치</b> — 천장 높이, 욕실처럼 습기에 강한 등이 필요한 곳인지</li>
+          <li><b>배선 상태</b> — 낡은 배선을 손봐야 하는지</li>
+        </ul>
+        <p class="note">증상과 사진을 보내 주시면 대략적인 비용을 먼저 안내해 드립니다.</p>
+      </div>
+    </div>
+
+    <h2 class="art-title" id="s7">7. 작업 사진</h2>
+    <!-- 실제 작업 사진이 오면 .ph 칸을 <img>로 바꾸기 -->
+    <div class="cases">
+      <div class="case">
+        <div class="ba"><div class="ph">작업 전<br>사진 자리</div><div class="ph after">작업 후<br>사진 자리</div></div>
+        <div class="case-body"><span class="tag">LED등 교체</span><b>지역 · 현장 이름</b><p>어떤 문제였고 어떻게 해결했는지 한두 줄로 적는 자리입니다.</p></div>
+      </div>
+      <div class="case">
+        <div class="ba"><div class="ph">작업 전<br>사진 자리</div><div class="ph after">작업 후<br>사진 자리</div></div>
+        <div class="case-body"><span class="tag">LED등 교체</span><b>지역 · 현장 이름</b><p>어떤 문제였고 어떻게 해결했는지 한두 줄로 적는 자리입니다.</p></div>
+      </div>
+    </div>
+
+    <h2 class="art-title" id="s8">8. 출동 지역</h2>
+    <p class="art-lead">각 지역의 설비 장인들이 가까운 곳에서 출동합니다. <b>전국 24시간</b> 전화 주세요.</p>
+    <div class="others-list">
+      <a href="siheung.html">📍 시흥</a>
+      <a href="ansan.html">📍 안산</a>
+      <a href="incheon-yeonsu.html">📍 송도·연수구</a>
+      <a href="incheon-namdong.html">📍 인천 남동구</a>
+      <a href="index.html#area">📍 그 밖의 전국</a>
+    </div>
+
+    <h2 class="art-title" id="s9">9. 고객 후기</h2>
+    <!-- 실제 손님 후기만 넣기 -->
+    <div class="reviews">
+      <div class="review ph-review"><div class="stars">★★★★★</div><p>실제 손님 후기가 들어갈 자리입니다.</p><span class="who">지역 · LED등 교체 · 날짜</span></div>
+      <div class="review ph-review"><div class="stars">★★★★★</div><p>실제 손님 후기가 들어갈 자리입니다.</p><span class="who">지역 · LED등 교체 · 날짜</span></div>
+    </div>
+
+    <h2 class="art-title" id="s10">10. 자주 묻는 질문</h2>
+    <details>
+      <summary>등이 따뜻해지는 건 괜찮나요?</summary>
+      <p>살짝 따뜻한 정도는 괜찮지만, 손을 대기 어려울 만큼 뜨겁거나 타는 냄새가 나면 바로 끄고 점검을 받아 주세요.</p>
+    </details>
+    <details>
+      <summary>방 하나만 바꿔도 되나요?</summary>
+      <p>네. 등 하나만 바꾸셔도 됩니다. 한 번 오실 때 다른 등도 함께 봐 드릴 수 있습니다.</p>
+    </details>
+  </div>
+</article>
+
+<!-- 다른 꿀팁 -->
+<section class="svc-bg others">
+  <div class="wrap">
+    <h2 class="sec-title">다른 생활의 꿀팁</h2>
+    <div class="others-list">
+      <a href="tip-drain.html">🛁 하수구 막힘</a>
+      <a href="tip-sink.html">🚰 싱크대 역류</a>
+      <a href="tip-toilet.html">🚽 변기 막힘</a>
+      <a href="tip-septic.html">🏠 정화조 막힘</a>
+      <a href="tip-camera.html">🔍 내시경 · 관로탐지</a>
+      <a href="tip-jet.html">💦 배관 고압세척</a>
+      <a href="tip-faucet.html">🚿 수전 교체</a>
+      <a href="tip-doorknob.html">🚪 문고리</a>
+      <a href="tip-led.html">💡 LED등 교체</a>
+      <a href="tip-smell.html">👃 악취 차단</a>
+      <a href="tip-smoke.html">🚬 욕실 담배냄새</a>
+    </div>
+  </div>
+</section>
+
+<!-- 마지막 전화 유도 -->
+<section class="cta">
+  <div class="wrap">
+    <h2>해 봐도 안 되면, 그때 누원설비가 갑니다</h2>
+    <a href="tel:01052726159" class="phone">010-5272-6159</a>
+    <p>설비 장인들 · 전국 24시간 출장</p>
+    <a href="#" class="btn btn-kakao cta-kakao">💛 카카오톡으로 사진 보내고 상담하기</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><b>누원건축설비</b> (누원설비)</p>
+    <p>대표 전상만 · 사업자등록번호 712-12-02308</p>
+    <p>경기도 시흥시 배곧1로 27-13 · 전화 010-5272-6159</p>
+    <p style="margin-top:10px">© 누원건축설비</p>
+  </div>
+</footer>
+
+<!-- 휴대폰 하단 고정 버튼 -->
+<div class="fixed-bar">
+  <a href="tel:01052726159" class="f-call">📞 전화하기</a>
+  <a href="#" class="f-kakao">💛 카톡</a>
+  <a href="sms:01052726159?body=[누원설비 문의] 지역: / 증상: LED등 교체" class="f-sms">💬 문자</a>
+</div>
+
+<script src="pick.js"></script>
+</body>
+</html>

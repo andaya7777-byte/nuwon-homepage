@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <!-- 첫 화면 뒤에 흐릿하게 깔리는 배관 그림 -->
+  <g opacity="0.11">
+    <!-- 배관 몸통 -->
+    <g stroke="#4338ca" stroke-width="34">
+      <path d="M -20 120 H 300 Q 360 120 360 180 V 420 Q 360 480 420 480 H 640"/>
+      <path d="M 200 -20 V 120"/>
+      <path d="M 480 -20 V 300 Q 480 340 520 340 H 640"/>
+      <path d="M -20 520 H 200 Q 240 520 240 560 V 640"/>
+    </g>
+    <!-- 둥근 관처럼 보이게 하는 밝은 줄 -->
+    <g stroke="#ffffff" stroke-width="8" opacity="0.7">
+      <path d="M -20 112 H 300 Q 368 112 368 180 V 420 Q 368 472 420 472 H 640"/>
+      <path d="M 192 -20 V 104"/>
+      <path d="M 472 -20 V 300 Q 472 348 520 348 H 640"/>
+      <path d="M -20 512 H 200 Q 248 512 248 560 V 640"/>
+    </g>
+    <!-- 이음매(플랜지) -->
+    <g fill="#4338ca">
+      <rect x="243" y="94" width="14" height="52" rx="3"/>
+      <rect x="334" y="293" width="52" height="14" rx="3"/>
+      <rect x="454" y="153" width="52" height="14" rx="3"/>
+      <rect x="533" y="454" width="14" height="52" rx="3"/>
+      <rect x="174" y="40" width="52" height="14" rx="3"/>
+      <rect x="93" y="494" width="14" height="52" rx="3"/>
+      <rect x="586" y="314" width="14" height="52" rx="3"/>
+    </g>
+    <!-- 밸브 손잡이 -->
+    <g stroke="#4338ca" stroke-width="6">
+      <path d="M 480 230 H 432"/>
+      <circle cx="410" cy="230" r="26"/>
+      <path d="M 410 204 V 256 M 384 230 H 436 M 392 212 L 428 248 M 428 212 L 392 248"/>
+    </g>
+  </g>
+</svg>
